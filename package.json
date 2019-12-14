@@ -1,17 +1,22 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "npgatslearn",
   "version": "1.0.0",
   "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@types/node-fetch": "^2.5.4",
     "@zeit/fetch": "^5.1.1",
+    "all": "0.0.0",
     "dependencies": "0.0.1",
     "gatsby": "^2.18.11",
-    "gatsby-image": "^2.0.15",
-    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-image": "^2.2.36",
+    "gatsby-plugin-manifest": "^2.2.33",
     "gatsby-plugin-react-helmet": "^3.1.18",
+    "node-fetch": "^2.6.0",
     "now-client": "^6.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.7.3"
   },
   "devDependencies": {
     "@now/node": "^0.11.1"
@@ -19,5 +24,17 @@
   "scripts": {
     "dev": "gatsby develop -p $PORT",
     "build": "gatsby build"
-  }
+  },
+  "description": "![Gatsby Logo](../.github/images/gatsby.svg)",
+  "main": "gatsby-browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmdkent/TheGatsbyGalaxy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmdkent/TheGatsbyGalaxy/issues"
+  },
+  "homepage": "https://github.com/nmdkent/TheGatsbyGalaxy#readme"
 }
